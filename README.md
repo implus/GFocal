@@ -45,8 +45,8 @@ GFL_dcnv2_X_101_32x8d_FPN_2x | Yes | | | | [Google]()
 
 [1] *1x and 2x mean the model is trained for 90K and 180K iterations, respectively.* \
 [2] *All results are obtained with a single model and without any test time data augmentation such as multi-scale, flipping and etc..* \
-[3] *`dcnv2` denotes deformable convolutional networks v2. Note that for ResNet based models, we apply deformable convolutions from stage c3 to c5 in backbones. For ResNeXt based models, only stage c4 and c5 use deformable convolutions. * \
-[4] *Refer to more details in config files in `config/` *\
+[3] *`dcnv2` denotes deformable convolutional networks v2. Note that for ResNet based models, we apply deformable convolutions from stage c3 to c5 in backbones. For ResNeXt based models, only stage c4 and c5 use deformable convolutions.* \
+[4] *Refer to more details in config files in `config/`* \
 
 
 
@@ -65,17 +65,5 @@ If you use this toolbox or benchmark in your research, please cite this project.
   author  = {to appear},
   journal = {to appear},
   year    = {2020}
-}
-
-@article{mmdetection,
-  title   = {{MMDetection}: Open MMLab Detection Toolbox and Benchmark},
-  author  = {Chen, Kai and Wang, Jiaqi and Pang, Jiangmiao and Cao, Yuhang and
-             Xiong, Yu and Li, Xiaoxiao and Sun, Shuyang and Feng, Wansen and
-             Liu, Ziwei and Xu, Jiarui and Zhang, Zheng and Cheng, Dazhi and
-             Zhu, Chenchen and Cheng, Tianheng and Zhao, Qijie and Li, Buyu and
-             Lu, Xin and Zhu, Rui and Wu, Yue and Dai, Jifeng and Wang, Jingdong
-             and Shi, Jianping and Ouyang, Wanli and Loy, Chen Change and Lin, Dahua},
-  journal= {arXiv preprint arXiv:1906.07155},
-  year={2019}
 }
 ```
