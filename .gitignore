@@ -123,3 +123,6 @@ gen.py
 slurmtask/
 delete/
 local_config/
+debug_gen.py
+submits/
+core

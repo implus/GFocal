@@ -35,13 +35,13 @@ Please see [GETTING_STARTED.md](docs/GETTING_STARTED.md) for the basic usage of 
 
 For your convenience, we provide the following trained models. All models are trained with 16 images in a mini-batch with 8 GPUs.
 
-Model | Multi-scale training | AP (minival) | AP50 | AP75 | Link
+Model | Multi-scale training | AP (minival) | AP (test-dev) | Link
 --- |:---:|:---:|:---:|:---:|:---:
-GFL_R_50_FPN_1x              | No  | | | | [Google]()
-GFL_R_101_FPN_2x             | Yes | | | | [Google]()
-GFL_dcnv2_R_101_FPN_2x       | Yes | | | | [Google]()
-GFL_X_101_32x8d_FPN_2x       | Yes | | | | [Google]()
-GFL_dcnv2_X_101_32x8d_FPN_2x | Yes | | | | [Google]()
+GFL_R_50_FPN_1x              | No  | 40.2 | 40.3 | [Google]()
+GFL_R_101_FPN_2x             | Yes | 44.9 | 45.0 | [Google]()
+GFL_dcnv2_R_101_FPN_2x       | Yes | 47.2 | 47.3 | [Google]()
+GFL_X_101_32x8d_FPN_2x       | Yes | 45.7 | 46.0 | [Google]()
+GFL_dcnv2_X_101_32x8d_FPN_2x | Yes | 48.3 | 48.2 | [Google]()
 
 [1] *1x and 2x mean the model is trained for 90K and 180K iterations, respectively.* \
 [2] *All results are obtained with a single model and without any test time data augmentation such as multi-scale, flipping and etc..* \

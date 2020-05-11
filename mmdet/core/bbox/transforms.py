@@ -223,7 +223,7 @@ def distance2bbox(points, distance, max_shape=None):
     return torch.stack([x1, y1, x2, y2], -1)
 
 
-def bbox2distance(points, bbox, max_dis=None):
+def bbox2distance(points, bbox, max_dis=None, dt=0.1):
     """Decode bounding box based to distances.
 
     Args:
@@ -239,8 +239,8 @@ def bbox2distance(points, bbox, max_dis=None):
     r = bbox[:, 2] - points[:, 0]
     b = bbox[:, 3] - points[:, 1]
     if max_dis is not None:
-        l = l.clamp(min=0, max=max_dis - 0.1)
-        t = t.clamp(min=0, max=max_dis - 0.1)
-        r = r.clamp(min=0, max=max_dis - 0.1)
-        b = b.clamp(min=0, max=max_dis - 0.1)
+        l = l.clamp(min=0, max=max_dis - dt)
+        t = t.clamp(min=0, max=max_dis - dt)
+        r = r.clamp(min=0, max=max_dis - dt)
+        b = b.clamp(min=0, max=max_dis - dt)
     return torch.stack([l, t, r, b], -1)
