@@ -36,7 +36,7 @@ Please see [GETTING_STARTED.md](docs/GETTING_STARTED.md) for the basic usage of 
 For your convenience, we provide the following trained models. All models are trained with 16 images in a mini-batch with 8 GPUs.
 
 Model | Multi-scale training | AP (minival) | AP (test-dev) | Link
---- |:---:|:---:|:---:|:---:|:---:
+--- |:---:|:---:|:---:|:---:
 GFL_R_50_FPN_1x              | No  | 40.2 | 40.3 | [Google]()
 GFL_R_101_FPN_2x             | Yes | 44.9 | 45.0 | [Google]()
 GFL_dcnv2_R_101_FPN_2x       | Yes | 47.2 | 47.3 | [Google]()
