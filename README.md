@@ -37,11 +37,11 @@ For your convenience, we provide the following trained models. All models are tr
 
 Model | Multi-scale training | AP (minival) | AP (test-dev) | Link
 --- |:---:|:---:|:---:|:---:
-GFL_R_50_FPN_1x              | No  | 40.2 | 40.3 | [Google]()
-GFL_R_101_FPN_2x             | Yes | 44.9 | 45.0 | [Google]()
-GFL_dcnv2_R_101_FPN_2x       | Yes | 47.2 | 47.3 | [Google]()
-GFL_X_101_32x8d_FPN_2x       | Yes | 45.7 | 46.0 | [Google]()
-GFL_dcnv2_X_101_32x8d_FPN_2x | Yes | 48.3 | 48.2 | [Google]()
+GFL_R_50_FPN_1x              | No  | 40.2 | 40.3 | [Google](https://drive.google.com/file/d/184HAOoCl6j1-u0ad_lzmFFYQPY9nKxgy/view?usp=sharing)
+GFL_R_101_FPN_2x             | Yes | 44.9 | 45.0 | [Google](https://drive.google.com/file/d/1vCYKVejsxO0Fj3CNtjYg_giq3aKmQ8gB/view?usp=sharing)
+GFL_dcnv2_R_101_FPN_2x       | Yes | 47.2 | 47.3 | [Google](https://drive.google.com/file/d/1lJT5jj6mU29fLXHFRmMBIqKi-jZGSlSR/view?usp=sharing)
+GFL_X_101_32x8d_FPN_2x       | Yes | 45.7 | 46.0 | [Google](https://drive.google.com/file/d/1VqlZKmwVYmmQzU1z-qOHiAlToG8wwIOL/view?usp=sharing)
+GFL_dcnv2_X_101_32x8d_FPN_2x | Yes | 48.3 | 48.2 | [Google](https://drive.google.com/file/d/13W38rPTxvxwmQuDR2DIsTxvGrPhIOOOz/view?usp=sharing)
 
 [1] *1x and 2x mean the model is trained for 90K and 180K iterations, respectively.* \
 [2] *All results are obtained with a single model and without any test time data augmentation such as multi-scale, flipping and etc..* \
