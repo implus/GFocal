@@ -58,6 +58,7 @@ GFL_dcnv2_X_101_32x4d_FPN_2x | Yes | 48.3 | 48.2 | 10.0 | [Google](https://drive
 
 
 
+
 ## Acknowledgement
 
 Thanks MMDetection team for the wonderful open source project!
