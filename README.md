@@ -58,7 +58,7 @@ Thanks MMDetection team for the wonderful open source project!
 
 ## Citation
 
-If you use this toolbox or benchmark in your research, please cite this project.
+If you find GFL useful in your research, please consider citing this project.
 
 ```
 @article{GFocaL,
