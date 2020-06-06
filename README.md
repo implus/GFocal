@@ -42,7 +42,7 @@ CUDA_VISIBLE_DEVICES=0 python3 ./tools/benchmark.py configs/gfl_r50_1x.py work_d
 For your convenience, we provide the following trained models. All models are trained with 16 images in a mini-batch with 8 GPUs.
 
 Model | Multi-scale training | AP (minival) | AP (test-dev) | FPS | Link
---- |:---:|:---:|:---:|:---:
+--- |:---:|:---:|:---:|:---:|:---:
 GFL_R_50_FPN_1x              | No  | 40.2 | 40.3 | 19.4 | [Google](https://drive.google.com/file/d/184HAOoCl6j1-u0ad_lzmFFYQPY9nKxgy/view?usp=sharing)
 GFL_R_50_FPN_2x              | Yes | 42.8 | 43.1 | 19.4 | [Google](https://drive.google.com/file/d/1j8doGQDi1w79Ffk4QuxX65y1A3fyraUe/view?usp=sharing)
 GFL_R_101_FPN_2x             | Yes | 44.9 | 45.0 | 14.6 | [Google](https://drive.google.com/file/d/1vCYKVejsxO0Fj3CNtjYg_giq3aKmQ8gB/view?usp=sharing)
