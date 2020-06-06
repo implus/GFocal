@@ -54,7 +54,7 @@ GFL_dcnv2_X_101_32x4d_FPN_2x | Yes | 48.3 | 48.2 | 10.0 | [Google](https://drive
 [2] *All results are obtained with a single model and without any test time data augmentation such as multi-scale, flipping and etc..* \
 [3] *`dcnv2` denotes deformable convolutional networks v2. Note that for ResNet based models, we apply deformable convolutions from stage c3 to c5 in backbones. For ResNeXt based models, only stage c4 and c5 use deformable convolutions.* \
 [4] *Refer to more details in config files in `config/`.* \
-[5] *FPS is tested with a single GeForce RTX 2080Ti GPU, using a batch size of 1.* \
+[5] *FPS is tested with a single GeForce RTX 2080Ti GPU, using a batch size of 1.* 
 
 
 
