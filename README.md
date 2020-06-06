@@ -31,23 +31,30 @@ Please see [GETTING_STARTED.md](docs/GETTING_STARTED.md) for the basic usage of 
 ./tools/dist_test.sh configs/gfl_r50_1x.py work_dirs/gfl_r50_1x/epoch_12.pth 8 --eval bbox
 ```
 
+## Speed Test (FPS)
+
+```python
+CUDA_VISIBLE_DEVICES=0 python3 ./tools/benchmark.py configs/gfl_r50_1x.py work_dirs/gfl_r50_1x/epoch_12.pth
+```
+
 ## Models
 
 For your convenience, we provide the following trained models. All models are trained with 16 images in a mini-batch with 8 GPUs.
 
-Model | Multi-scale training | AP (minival) | AP (test-dev) | Link
+Model | Multi-scale training | AP (minival) | AP (test-dev) | FPS | Link
 --- |:---:|:---:|:---:|:---:
-GFL_R_50_FPN_1x              | No  | 40.2 | 40.3 | [Google](https://drive.google.com/file/d/184HAOoCl6j1-u0ad_lzmFFYQPY9nKxgy/view?usp=sharing)
-GFL_R_50_FPN_2x              | Yes | 42.8 | 43.1 | [Google](https://drive.google.com/file/d/1j8doGQDi1w79Ffk4QuxX65y1A3fyraUe/view?usp=sharing)
-GFL_R_101_FPN_2x             | Yes | 44.9 | 45.0 | [Google](https://drive.google.com/file/d/1vCYKVejsxO0Fj3CNtjYg_giq3aKmQ8gB/view?usp=sharing)
-GFL_dcnv2_R_101_FPN_2x       | Yes | 47.2 | 47.3 | [Google](https://drive.google.com/file/d/1lJT5jj6mU29fLXHFRmMBIqKi-jZGSlSR/view?usp=sharing)
-GFL_X_101_32x8d_FPN_2x       | Yes | 45.7 | 46.0 | [Google](https://drive.google.com/file/d/1VqlZKmwVYmmQzU1z-qOHiAlToG8wwIOL/view?usp=sharing)
-GFL_dcnv2_X_101_32x8d_FPN_2x | Yes | 48.3 | 48.2 | [Google](https://drive.google.com/file/d/13W38rPTxvxwmQuDR2DIsTxvGrPhIOOOz/view?usp=sharing)
+GFL_R_50_FPN_1x              | No  | 40.2 | 40.3 | 19.4 | [Google](https://drive.google.com/file/d/184HAOoCl6j1-u0ad_lzmFFYQPY9nKxgy/view?usp=sharing)
+GFL_R_50_FPN_2x              | Yes | 42.8 | 43.1 | 19.4 | [Google](https://drive.google.com/file/d/1j8doGQDi1w79Ffk4QuxX65y1A3fyraUe/view?usp=sharing)
+GFL_R_101_FPN_2x             | Yes | 44.9 | 45.0 | 14.6 | [Google](https://drive.google.com/file/d/1vCYKVejsxO0Fj3CNtjYg_giq3aKmQ8gB/view?usp=sharing)
+GFL_dcnv2_R_101_FPN_2x       | Yes | 47.2 | 47.3 | 12.7 | [Google](https://drive.google.com/file/d/1lJT5jj6mU29fLXHFRmMBIqKi-jZGSlSR/view?usp=sharing)
+GFL_X_101_32x4d_FPN_2x       | Yes | 45.7 | 46.0 | 12.2 | [Google](https://drive.google.com/file/d/1VqlZKmwVYmmQzU1z-qOHiAlToG8wwIOL/view?usp=sharing)
+GFL_dcnv2_X_101_32x4d_FPN_2x | Yes | 48.3 | 48.2 | 10.0 | [Google](https://drive.google.com/file/d/13W38rPTxvxwmQuDR2DIsTxvGrPhIOOOz/view?usp=sharing)
 
 [1] *1x and 2x mean the model is trained for 90K and 180K iterations, respectively.* \
 [2] *All results are obtained with a single model and without any test time data augmentation such as multi-scale, flipping and etc..* \
 [3] *`dcnv2` denotes deformable convolutional networks v2. Note that for ResNet based models, we apply deformable convolutions from stage c3 to c5 in backbones. For ResNeXt based models, only stage c4 and c5 use deformable convolutions.* \
-[4] *Refer to more details in config files in `config/`* \
+[4] *Refer to more details in config files in `config/`.* \
+[5] FPS is tested with a single GeForce RTX 2080Ti GPU, using a batch size of 1.* \
 
 
 
