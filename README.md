@@ -1,6 +1,6 @@
 # Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection
 
-[zhihu link](https://zhuanlan.zhihu.com/p/147691786)
+See more comments in [大白话 Generalized Focal Loss(知乎)](https://zhuanlan.zhihu.com/p/147691786)
 
 ## Introduction
 
