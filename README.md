@@ -14,7 +14,7 @@ For details see [GFocal](https://arxiv.org/pdf/2006.04388.pdf). The speed-accura
 
 ## News
 
-[2020.6] GFocal will be soon officially included in [MMDetection V2](https://github.com/open-mmlab/mmcv), welcome to use!
+[2020.6] GFocal will be officially included in [MMDetection V2](https://github.com/open-mmlab/mmcv) soon, welcome to use!
 
 
 ## Installation
