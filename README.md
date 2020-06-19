@@ -12,6 +12,11 @@ For details see [GFocal](https://arxiv.org/pdf/2006.04388.pdf). The speed-accura
 
 <img src="https://github.com/implus/GFocal/blob/master/sota_time_acc.jpg" width="541" height="365" align="middle"/>
 
+## News
+
+[2020.6] GFocal will be soon officially included in [MMDetection V2](https://github.com/open-mmlab/mmcv), welcome to use!
+
+
 ## Installation
 
 Please refer to [INSTALL.md](docs/INSTALL.md) for installation and dataset preparation.
