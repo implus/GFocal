@@ -1,6 +1,7 @@
 # Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection
 
 See more comments in [大白话 Generalized Focal Loss(知乎)](https://zhuanlan.zhihu.com/p/147691786)
+[2020.7] GFocal is officially included in [MMDetection V2](https://github.com/open-mmlab/mmdetection/blob/master/configs/gfl/README.md), welcome to use!
 
 ## Introduction
 
@@ -11,10 +12,6 @@ One-stage detector basically formulates object detection as dense classification
 For details see [GFocal](https://arxiv.org/pdf/2006.04388.pdf). The speed-accuracy trade-off is as follows:
 
 <img src="https://github.com/implus/GFocal/blob/master/sota_time_acc.jpg" width="541" height="365" align="middle"/>
-
-## News
-
-[2020.6] GFocal will be officially included in [MMDetection V2](https://github.com/open-mmlab/mmcv) soon, welcome to use!
 
 
 ## Installation
