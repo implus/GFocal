@@ -4,7 +4,7 @@ See more comments in [大白话 Generalized Focal Loss(知乎)](https://zhuanlan
 
 [2020.7] GFocal is officially included in [MMDetection V2](https://github.com/open-mmlab/mmdetection/blob/master/configs/gfl/README.md), many thanks to [@ZwwWayne](https://github.com/ZwwWayne) and [@hellock](https://github.com/hellock) for helping migrating the code.
 
-[2020.9] The winner (1st) of GigaVision (object detection and tracking) in ECCV 2020 workshop from DeepBlueAI team adopt GFocal in their [solutions](http://tech.sina.com.cn/csj/2020-09-01/doc-iivhvpwy4252172.shtml).
+[2020.9] The winner (1st) of GigaVision (object detection and tracking) in ECCV 2020 workshop from DeepBlueAI team adopt GFocal in their [solutions](http://dy.163.com/article/FLF2LGTP0511ABV6.html).
 
 ## Introduction
 
