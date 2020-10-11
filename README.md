@@ -90,7 +90,7 @@ If you find GFL useful in your research, please consider citing this project.
 ```
 @article{li2020generalizedv2,
   title={Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection},
-  author={Li, Xiang and Wang, Wenhai and Wu, Lijun and Chen, Shuo and Hu, Xiaolin and Li, Jun and Tang, Jinhui and Yang, Jian},
+  author={Li, Xiang and Wang, Wenhai and Hu, Xiaolin and Li, Jun and Tang, Jinhui and Yang, Jian},
   journal={arXiv preprint},
   year={2020}
 }
