@@ -2,6 +2,8 @@
 
 See more comments in [大白话 Generalized Focal Loss(知乎)](https://zhuanlan.zhihu.com/p/147691786)
 
+[2020.11] GFocal has been adopted in [NanoDet](https://github.com/RangiLyu/nanodet), a super efficient object detector on mobile devices, achieving same performance but 2x faster than YoLoV4-Tiny! More details are in [YOLO之外的另一选择，手机端97FPS的Anchor-Free目标检测模型NanoDet现已开源~](https://zhuanlan.zhihu.com/p/306530300).
+
 [2020.10] Good News! GFocal has been accepted in NeurIPs 2020 and GFocal V2 is on the way.
 
 [2020.9] The winner (1st) of GigaVision (object detection and tracking) in ECCV 2020 workshop from DeepBlueAI team adopt GFocal in their [solutions](http://dy.163.com/article/FLF2LGTP0511ABV6.html).
